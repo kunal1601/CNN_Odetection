@@ -1,4 +1,4 @@
-iiimport numpy as np
+import numpy as np
 from keras.models import Sequential
 from keras.layers import Dropout, Dense, Flatten
 from keras.optimizers import SGD
