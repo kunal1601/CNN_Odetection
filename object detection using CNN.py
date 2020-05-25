@@ -9,6 +9,7 @@ from keras.datasets import cifar10
 #Lets start by loading the Cifar10 data
 (X, y), (X_test, y_test) = cifar10.load_data()
 
+#.....
 #Keep in mind the images are in RGB
 #So we can normalise the data by diving by 255
 #The data is in integers therefore we need to convert them to float first
