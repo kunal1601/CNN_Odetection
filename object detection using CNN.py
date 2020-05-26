@@ -1,10 +1,20 @@
 import numpy as np
+
 from keras.models import Sequential
+
 from keras.layers import Dropout, Dense, Flatten
+
 from keras.optimizers import SGD
+
+
 from keras.layers.convolutional import Conv2D, MaxPooling2D
+
+
 from keras.utils import np_utils as u
+
+
 from keras.datasets import cifar10
+
 
 #Lets start by loading the Cifar10 data
 (X, y), (X_test, y_test) = cifar10.load_data()
